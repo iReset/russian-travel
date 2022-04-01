@@ -1,0 +1,14 @@
+.place__website {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: end;
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    padding: 0 16px;
+  }
+}
