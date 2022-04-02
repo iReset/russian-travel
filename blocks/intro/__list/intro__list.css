@@ -3,10 +3,10 @@
   padding: 0;
   list-style: none;
 
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
+  line-height: 1.5;
 }
 
 /* В Фигме верхний отступ для ширины 320px равен 34px. Но по сравнению с другими ширинами он отличается слишком мало.
