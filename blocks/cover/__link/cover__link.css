@@ -3,7 +3,11 @@
   padding: 0;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-  aspect-ratio: 8 / 5; /* 83.9% поддержки по данным caniuse.com */
+  /* планировалось использовать aspect-ratio. проверку W3C это свойство проходит.
+  но при сдаче на ревью была получена ошибка
+  "Ошибка в свойстве на строке 6 в файле blocks/cover/__link/cover__link.css." без пояснения причины
+  пришлось отказаться */
+  /* aspect-ratio: 8 / 5; */ /* 83.9% поддержки по данным caniuse.com */
   min-height: 640px; /* замена aspect-ratio для остальных браузеров */
   position: relative;
   display: flex;
